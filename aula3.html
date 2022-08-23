@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exemplo Javascript</title>
+        <script type="text/javascript">
+            let date = new Date;
+
+            // requer um dia da semana jutamente com uma data longa
+            let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            console.log(date.toLocaleDateString('pt-BR', options));
+
+            // → "Donnerstag, 20. Dezember 2012"
+
+            // uma aplicação pode querer usar UTC e fazê-lo visível
+            options.timeZone = 'UTC';
+            options.timeZoneName = 'short';
+            console.log(date.toLocaleDateString('pt-BR', options));
+            document.write(date.toLocaleDateString('pt-BR', options))
+            // → "Thursday, December 20, 2012, GMT"
+            // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString
+
+
+        </script>
+    </head>
+    <body>
+        <h1>1111111111111</h1>
+    </body>
+</html>
