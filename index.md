@@ -6,7 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style_index.css">
+                <style>
+            a {
+                    font-size: medium;
+                }
+                body {
+                    background-color: black;
+                }
+        </style>
     </head>
     <body align="center">
         <table align="center">
