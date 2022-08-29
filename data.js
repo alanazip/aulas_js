@@ -20,3 +20,8 @@ document.getElementById("mes").innerHTML = mes;
 // Ano
 const ano = new Date();
 document.getElementById("ano").innerHTML = ano.getFullYear();
+
+   var data = new Date();
+   document.write(data);
+   var dia = data.getDate();
+   document.write("<br>"+dia);
