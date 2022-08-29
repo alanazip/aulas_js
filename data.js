@@ -16,7 +16,6 @@ const d = new Date();
 let mes = months[d.getMonth()];
 document.getElementById("mes").innerHTML = mes;
 
-
 // Ano
 const ano = new Date();
 document.getElementById("ano").innerHTML = ano.getFullYear();
