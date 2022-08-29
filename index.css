@@ -1,0 +1,23 @@
+a {
+    font-size: large;
+    font-family: 'Roboto';
+}
+a:link {
+    color: rgb(245, 229, 206);
+}
+a:hover {
+    color: rgb(94, 16, 117);
+}
+a:visited {
+    color: rgb(172, 0, 240);
+}
+body {
+    background-image: radial-gradient(circle at center, #741c8a, #a241c9, #bf68da);
+    background-image: url("teste.jpg");
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
