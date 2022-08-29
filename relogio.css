@@ -12,6 +12,7 @@ body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-family: 'SF UI Display';
+    width: 100%;
 }
 #autoplay-cover {
     position: fixed;
