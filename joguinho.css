@@ -17,4 +17,9 @@ body {
     color: aliceblue;
     font-size: medium;
 }
-
+button {
+    font-family: 'SF UI Display';
+    background: rgb(91, 23, 146);
+    color: aliceblue;
+    font-size: medium;
+}
