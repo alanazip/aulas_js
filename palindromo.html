@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palíndromo</title>
+</head>
+<body>
+
+    <div class="container">
+        <p>Palíndromo é uma palavra, frase ou sequência numérica que permanece igual quando lida de trás pra frente.</p>
+        <label>Insira uma palavra e verifique se é palíndromo: </label>
+        <input type="text" value="" id="text">
+        <button id="button">Vericiar</button>
+        <p id="result"></p>
+      </div>
+
+    <script>
+        const button = document.querySelector('#button');
+        const resultText = document.querySelector('#result');
+
+        function invertText(text) {
+        const changedText = text.split('').reverse().join('');
+        return text === changedText ? true : false;
+        }
+
+        button.addEventListener('click', () => {
+            const textValue = document.querySelector('#text').value;
+            const result  = invertText(textValue);
+
+            result
+                ? resultText.innerHTML = 'O texto é um palídromo'
+                : resultText.innerHTML = 'O texto não é um palídromo';
+        }   );
+
+    </script>
+</body>
+</html>
