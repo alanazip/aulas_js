@@ -1,6 +1,7 @@
+@import url('http://fonts.cdnfonts.com/css/sf-ui-display');
 a {
     font-size: large;
-    font-family: 'Roboto';
+    font-family: 'SF UI Display';
 }
 a:link {
     color: rgb(245, 229, 206);
@@ -12,7 +13,6 @@ a:visited {
     color: rgb(172, 0, 240);
 }
 body {
-    background-image: radial-gradient(circle at center, #741c8a, #a241c9, #bf68da);
     background-image: url("teste.jpg");
     margin: 0;
     position: absolute;
