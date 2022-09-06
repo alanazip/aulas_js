@@ -1,10 +1,18 @@
-document.getElementById("Botao").addEventListener("click", function(){
-    let lista = document.createElement("li");
-    let ol = document.createTextNode(ol);
-    lista.appendChild(ol)
-    document.body.appendChild(e);
-    })
+let btnAdicionar = document.getElementById("btnAdicionar");
+btnAdicionar.addEventListener("click", function () {
 
-    function myFunction(){
-        
-    }
+    let elementos = [];
+    let valor = document.getElementById("valor").value;
+    elementos.push(valor.toString());
+
+    let elementoOL = document.createElement("OL");
+    elementos.forEach(element => {
+        let elementLI = document.createElement("LI");
+        let textNode = document.createTextNode(element);
+        elementLI.appendChild(textNode);
+
+        elementoOL.appendChild(textNode);
+    });
+
+    document.body.appendChild(elementoOL);
+});
