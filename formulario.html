@@ -1,32 +1,20 @@
 <!doctype html>
-<html lang="en">
-  <head>
+<html lang="pt-BR">
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atv_04 Array</title>
     <link rel="stylesheet" href="formulario.css">
-    <title>Formulário</title>
-  </head>
-  <body class="container">
-    <h1>Formulário</h1>
-    <div class="row">
-        <div class="col-6">
-            <form-control>
-                <label>Insira o seu nome:</label>
-                <input class="form-control form-control-lg" type="text" placeholder="nome" aria-label=".form-control-lg example" id="nome">
-                <br>
-                <br>
-
-                <label>Insira o seu apelido:</label>
-                <input class="form-control form-control-lg" type="text" placeholder="apelido" aria-label=".form-control-lg example" id="apelido">
-                <br>
-                <br>
-
-                <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-3" id="Botao">Inserir</button>
-                  </div>
-            </form-control>
-        </div>
+</head>
+<body>
+    <div>  
+        <label for="valor">Insira seu nome: </label>
+        <input type="text" id="valor" name="valor"> </input>
+        <button type="submit" id="btnAdicionar">Adicionar</button>
+        <p id="lista">
+        </p>
     </div>
-    <script type="text/javascript" src="formulario.js" defer></script>
-  </body>
+    <script type="text/javascript" src="formulario.js" async></script>
+</body>
 </html>
