@@ -3,7 +3,7 @@ function horarioAtual() {
     document.getElementById("rel").innerHTML = horario;
     setTimeout(horarioAtual, 1000);
 }
-
+/*
 document.addEventListener("DOMContentLoaded", function() {
 	autoplay = document.getElementById("autoplay")
 	promise = autoplay.play()
@@ -68,3 +68,4 @@ window.addEventListener("load", function() {
 		cursor.className = isHover ? "hover" : "";
 	});
 });
+*/
